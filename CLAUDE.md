@@ -138,6 +138,7 @@ Skills = Markdown files with YAML frontmatter consumed by Claude Code's skill/pl
 
 ### Intensity levels
 
+Defined in `skills/mad-tinker/SKILL.md`. Four levels: `compressed`, `lite`, `full` (default), `ultra`. Persists until changed or session ends.
 
 ### Auto-clarity rule
 
@@ -149,7 +150,7 @@ Sub-skill in `tinker-compress/SKILL.md`. Takes file path, compresses prose to ti
 
 ### tinker-commit / tinker-review
 
-Independent skills in `skills/tinker-commit/SKILL.md` and `skills/tinker-review/SKILL.md`. Both have own `description` and `name` frontmatter so they load independently. tinker-commit: Conventional Commits, ≤50 char subject. tinker-review: one-line comments in `L<line>: <severity> <problem>. <fix>.` format.
+Independent skills in `skills/tinker-commit/SKILL.md` and `skills/tinker-review/SKILL.md`. Both have own `description` and `name` frontmatter so they load independently.
 
 ---
 
@@ -169,24 +170,6 @@ How tinker reaches each agent type:
 | Others | `npx skills add JuliusBrussee/mad-tinker` | No — user must say `/tinker` each session |
 
 For agents without hook systems, minimal always-on snippet lives in README under "Want it always on?" — keep current with `rules/mad-tinker-activate.md`.
-
----
-
-
-- `__baseline__` — no system prompt
-- `__terse__` — `Answer concisely.`
-- `<skill>` — `Answer concisely.\n\n{SKILL.md}`
-
-Honest delta = **skill vs terse**, not skill vs baseline. Baseline comparison conflates skill with generic terseness — that cheating. Harness designed to prevent this.
-
-
-
-Snapshots committed to git. CI reads without API calls. Only regenerate when SKILL.md or prompts change.
-
----
-
-
-
 
 ---
 

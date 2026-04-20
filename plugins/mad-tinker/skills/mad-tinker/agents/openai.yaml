@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mad Tinker"
+  short_description: "Talk like tinker. Cut filler. Keep technical accuracy."
+  icon_small: "./assets/tinker-small.svg"
+  icon_large: "./assets/tinker.svg"
+  default_prompt: "Use $tinker to answer briefly, cut filler, and preserve exact technical substance."

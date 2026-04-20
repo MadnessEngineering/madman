@@ -1,4 +1,4 @@
-@./skills/caveman/SKILL.md
-@./skills/caveman-commit/SKILL.md
-@./skills/caveman-review/SKILL.md
-@./caveman-compress/SKILL.md
+@./skills/mad-tinker/SKILL.md
+@./skills/tinker-commit/SKILL.md
+@./skills/tinker-review/SKILL.md
+@./tinker-compress/SKILL.md

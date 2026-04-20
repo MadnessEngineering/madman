@@ -1,0 +1,13 @@
+{
+  "name": "mad-tinker",
+  "interface": {
+    "displayName": "Mad Tinker"
+  },
+  "author": {
+    "name": "Julius Brussee",
+    "url": "https://github.com/JuliusBrussee"
+  },
+  "description": "An overengineering communication mode. Expands ideas, overengineers for robustness, and misses nothing.",
+  "shortDescription": "Expand ideas. Overengineer. Miss nothing.",
+  "category": "Productivity"
+}

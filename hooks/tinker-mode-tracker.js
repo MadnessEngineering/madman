@@ -58,6 +58,7 @@ process.stdin.on('end', () => {
       } else if (cmd === '/tinker') {
         if (arg === 'lite') mode = 'tinker-lite';
         else if (arg === 'ultra') mode = 'tinker-ultra';
+        else if (arg === 'compressed') mode = 'tinker-compressed';
         else mode = 'tinker';
       }
 

@@ -23,7 +23,7 @@ MODE=$(printf '%s' "$MODE" | tr -cd 'a-z0-9-')
 
 # Whitelist. Anything else → render nothing rather than echo attacker bytes.
 case "$MODE" in
-  off|lite|full|ultra|commit|review|compress|tinker|tinker-lite|tinker-ultra) ;;
+  off|lite|full|ultra|commit|review|compress|tinker|tinker-lite|tinker-ultra|tinker-compressed) ;;
   *) exit 0 ;;
 esac
 

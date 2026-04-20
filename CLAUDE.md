@@ -11,7 +11,6 @@ README = product front door. Non-technical people read it to decide if tinker wo
 - Install table always complete + accurate. One broken install command costs real user.
 - What You Get table must sync with actual code. Feature ships or removed → update table.
 - Preserve voice. Mad Tinker speak in README on purpose. "Brain still big." "Cost go down forever." "One rock. That it." — intentional brand. Don't normalize.
-- Benchmark numbers from real runs in `benchmarks/` and `evals/`. Never invent or round. Re-run if doubt.
 - Adding new agent to install table → add detail block in `<details>` section below.
 - Readability check before any README commit: would non-programmer understand + install within 60 seconds?
 
@@ -173,28 +172,21 @@ For agents without hook systems, minimal always-on snippet lives in README under
 
 ---
 
-## Evals
 
-`evals/` has three-arm harness:
 - `__baseline__` — no system prompt
 - `__terse__` — `Answer concisely.`
 - `<skill>` — `Answer concisely.\n\n{SKILL.md}`
 
 Honest delta = **skill vs terse**, not skill vs baseline. Baseline comparison conflates skill with generic terseness — that cheating. Harness designed to prevent this.
 
-`llm_run.py` calls `claude -p --system-prompt ...` per (prompt, arm), saves to `evals/snapshots/results.json`. `measure.py` reads snapshot offline with tiktoken (OpenAI BPE — approximates Claude tokenizer, ratios meaningful, absolute numbers approximate).
 
-Add skill: drop `skills/<name>/SKILL.md`. Harness auto-discovers. Add prompt: append line to `evals/prompts/en.txt`.
 
 Snapshots committed to git. CI reads without API calls. Only regenerate when SKILL.md or prompts change.
 
 ---
 
-## Benchmarks
 
-`benchmarks/` runs real prompts through Claude API (not Claude Code CLI), records raw token counts. Results committed as JSON in `benchmarks/results/`. Benchmark table in README generated from results — update when regenerating.
 
-To reproduce: `uv run python benchmarks/run.py` (needs `ANTHROPIC_API_KEY` in `.env.local`).
 
 ---
 

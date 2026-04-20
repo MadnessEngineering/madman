@@ -16,7 +16,7 @@ const os = require('os');
 const VALID_MODES = [
   'off', 'lite', 'full', 'ultra',
   'commit', 'review', 'compress',
-  'tinker', 'tinker-lite', 'tinker-ultra'
+  'tinker', 'tinker-lite', 'tinker-ultra', 'tinker-compressed'
 ];
 
 function getConfigDir() {

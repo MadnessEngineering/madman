@@ -54,4 +54,4 @@ Resolution: env var > config file > `full`.
 
 ## More
 
-Full docs: https://github.com/JuliusBrussee/mad-tinker
+Full docs: https://github.com/MadnessEngineering/madman

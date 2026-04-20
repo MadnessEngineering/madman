@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JuliusBrussee/mad-tinker/stargazers"><img src="https://img.shields.io/github/stars/JuliusBrussee/mad-tinker?style=flat&color=blue" alt="Stars"></a>
-  <a href="https://github.com/JuliusBrussee/mad-tinker/commits/main"><img src="https://img.shields.io/github/last-commit/JuliusBrussee/mad-tinker?style=flat" alt="Last Commit"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/JuliusBrussee/mad-tinker?style=flat" alt="License"></a>
+  <a href="https://github.com/MadnessEngineering/madman/stargazers"><img src="https://img.shields.io/github/stars/MadnessEngineering/madman?style=flat&color=blue" alt="Stars"></a>
+  <a href="https://github.com/MadnessEngineering/madman/commits/main"><img src="https://img.shields.io/github/last-commit/MadnessEngineering/madman?style=flat" alt="Last Commit"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/MadnessEngineering/madman?style=flat" alt="License"></a>
 </p>
 
 ---
@@ -49,14 +49,14 @@ Pick your agent. One command. Done.
 
 | Agent | Install |
 |-------|---------|
-| **Claude Code** | `claude plugin marketplace add JuliusBrussee/mad-tinker && claude plugin install mad-tinker@mad-tinker` |
+| **Claude Code** | `claude plugin marketplace add MadnessEngineering/madman && claude plugin install mad-tinker@mad-tinker` |
 | **Codex** | Clone repo → `/plugins` → Search "Mad Tinker" → Install |
-| **Gemini CLI** | `gemini extensions install https://github.com/JuliusBrussee/mad-tinker` |
-| **Cursor** | `npx skills add JuliusBrussee/mad-tinker -a cursor` |
-| **Windsurf** | `npx skills add JuliusBrussee/mad-tinker -a windsurf` |
-| **Copilot** | `npx skills add JuliusBrussee/mad-tinker -a github-copilot` |
-| **Cline** | `npx skills add JuliusBrussee/mad-tinker -a cline` |
-| **Any other** | `npx skills add JuliusBrussee/mad-tinker` |
+| **Gemini CLI** | `gemini extensions install https://github.com/MadnessEngineering/madman` |
+| **Cursor** | `npx skills add MadnessEngineering/madman -a cursor` |
+| **Windsurf** | `npx skills add MadnessEngineering/madman -a windsurf` |
+| **Copilot** | `npx skills add MadnessEngineering/madman -a github-copilot` |
+| **Cline** | `npx skills add MadnessEngineering/madman -a cline` |
+| **Any other** | `npx skills add MadnessEngineering/madman` |
 
 ### What You Get
 

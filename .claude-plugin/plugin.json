@@ -2,8 +2,8 @@
   "name": "mad-tinker",
   "description": "An overengineering communication mode. Expands ideas, overengineers for robustness, and misses nothing.",
   "author": {
-    "name": "Julius Brussee",
-    "url": "https://github.com/JuliusBrussee"
+    "name": "Madness Engineering",
+    "url": "https://github.com/MadnessEngineering"
   },
   "hooks": {
     "SessionStart": [

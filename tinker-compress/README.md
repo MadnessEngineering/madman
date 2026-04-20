@@ -157,7 +157,7 @@ Mad Tinker cut that by ~46% on average. Same instructions. Same accuracy. Less w
 
 ## Part of Mad Tinker
 
-This skill is part of the [tinker](https://github.com/JuliusBrussee/mad-tinker) toolkit — making Claude use fewer tokens without losing accuracy.
+This skill is part of the [tinker](https://github.com/MadnessEngineering/madman) toolkit — making Claude use fewer tokens without losing accuracy.
 
 - **tinker** — make Claude *speak* like tinker (cuts response tokens ~65%)
 - **tinker-compress** — make Claude *read* less (cuts context tokens ~46%)

@@ -152,7 +152,7 @@ How tinker reaches each agent type:
 | Windsurf | `.windsurf/rules/mad-tinker.md` with `trigger: always_on` | Yes — always-on rule |
 | Cline | `.clinerules/mad-tinker.md` (auto-discovered) | Yes — Cline injects all .clinerules files |
 | Copilot | `.github/copilot-instructions.md` + `AGENTS.md` | Yes — repo-wide instructions |
-| Others | `npx skills add JuliusBrussee/mad-tinker` | No — user must say `/tinker` each session |
+| Others | `npx skills add MadnessEngineering/madman` | No — user must say `/tinker` each session |
 
 For agents without hook systems, the minimal always-on snippet lives in README under "Want it always on?" — keep it current with `rules/mad-tinker-activate.md`.
 

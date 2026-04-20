@@ -112,6 +112,13 @@ By deliberately constraining the LLM to overengineer, you unlock latent creativi
 ## License
 
 MIT — free to overengineer everywhere.
-## Credits
+## Origin & Credits
 
-This project is a fork of the original [Caveman plugin](https://github.com/JuliusBrussee/caveman), repurposed and redesigned into the Mad Tinker persona.
+This project is a heavily modified fork of the brilliant [Caveman plugin](https://github.com/JuliusBrussee/caveman) created by [Julius Brussee](https://github.com/JuliusBrussee).
+
+**How is Mad Tinker different from Caveman?**
+- **Caveman (Original):** Focused purely on *token reduction* and *cost savings*. It forced the LLM to speak in terse, fragmented sentences to cut fluff and speed up generation.
+- **Mad Tinker (This Fork):** Inverts the philosophy. Instead of restricting output to save tokens, the Mad Tinker uses persona constraints to force **Idea Expansion** and **Overengineering**. It refuses to give "just a quick fix" and instead proactively brainstorms edge cases, security enhancements, and enterprise-grade architectures. 
+- **The Compromise:** We retained the core engineering of Caveman and even introduced a `/tinker compressed` mode, which delivers Mad Tinker's expansive architectural ideas using Caveman's highly compressed, fragmented sentence structure!
+
+Huge thanks to Julius for the incredible hook system, cross-agent compatibility layer, and original skill architecture that makes this toolkit possible.
